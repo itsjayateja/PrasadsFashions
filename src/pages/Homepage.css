@@ -1,0 +1,442 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+background-color: #fff;
+
+
+}
+
+/* Hero */
+section.Hero{
+    padding-top: 5rem;
+    background: linear-gradient(to top, #D8D8D8,#fff);
+}
+.text-bold{
+    font-size:0.9rem;
+    font-weight: 600;
+    color:#B81F25;
+    text-align: start;
+    padding-top: 5rem;  
+}
+.text-label{
+    text-align: start;
+    font-size:4.6rem;
+    font-weight: 600;
+    color: #272B6C;
+    line-height: 4.5rem;
+    font-family: 'Crimson Text', serif;
+}
+.text-hero-regular{
+    font-size:1rem;
+    font-weight: 400;
+    color:#272B6C;
+    margin: 1rem 0rem;
+    text-align: start;
+
+}
+.scroll-text{
+    color:#B81F25;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: line-through;
+    padding-top: 5.5rem;
+    text-align: start;
+ 
+}
+.scrollimg{
+    color:#B81F25;
+    font-size: 1.5rem;
+    row-gap: 0.4rem;
+}
+.hero-image{
+    animation:right-mover 1s ease-in-out infinite alternate;
+}
+@keyframes right-mover{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
+
+/* Long Strip */
+.long-strip{
+    background-image: url("../assets/Longstrip.png");
+    padding: 1.5rem;
+    width:100%;
+    justify-content:space-around;
+    align-items: center; 
+    text-align: center;
+}
+.longicons{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.content-1{
+    justify-content: center;
+    align-items: center; 
+}
+h5{
+    color: #fff;
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+.content-text{
+color: #ebebeb;
+font-size: 0.7rem;
+font-weight: 400;
+}
+/* About */
+section.About1{
+    padding-top: 1rem; 
+}
+.About-Text{
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;   
+}
+.About-heading{
+    font-size: 0.9rem;
+    color:#272B6C;
+    text-align:start;
+    font-weight: 600;
+}
+.About-Lable{
+    font-size: 2.3rem;
+    color: #B81F25;
+    text-align: start;
+    font-weight:600;
+
+}
+.About-content{
+    font-size: 0.9rem;
+    color:#272B6C;
+    text-align: start;
+}
+.text-content{
+    font-size: 0.9rem;
+    color: #919191;
+    text-align: start;
+    padding-top: 0.5rem ;
+}
+.About-Button{
+    align-items: start;
+    text-align: start; 
+}
+.about-btn{
+    padding: 0.4rem 3rem;
+    color:#fff;
+    font-size: 0.9rem;
+    background-color: #B81F25;
+    border-radius: 0.2rem;
+    border: #B81F25;
+    margin-bottom: 1rem;
+}
+.about-btn:hover{
+    background-color: #272B6C;
+}
+/* Men-banner */
+.men-banner{
+    background-color: #f7f7f7;
+    padding:2rem 0;
+}
+.men-text{
+    font-size: 0.9rem;
+    color: #B81F25;
+    font-weight: 600;
+    text-align: end;
+    padding-right: 1rem;
+}
+.men-heading{
+    font-size: 2.2rem;
+    color:#272B6C;
+    font-weight: 600;
+    font-family: 'Crimson Text', serif;
+    text-align: end;
+    padding-right: 1rem;
+}
+
+.Men-Cloths{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+}
+.men{
+    font-size: 0.9rem;
+    color: #272B6C;
+    font-weight: 600;
+}
+
+.cloths{
+    width:10rem;
+    text-align: start;
+     gap: 1rem;
+}
+.Menimg{
+    width: 12rem;
+}
+/* Services */
+.Services{
+    background-color:#10144D;
+    padding: 2rem;
+}
+.Services-title{
+    color:#fff;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.Services-largetext{
+    color: #B81F25;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.Services-description{
+    color: #919191;
+    font-size: 0.9rem;
+  
+}
+.Services-icon{
+    color:#B81F25;
+    font-size: 1rem;
+    padding-top: 2rem;
+}
+.icon-text{
+    color:#fff;
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+}
+/* Products */
+section.Products{
+    background-color: #f7f7f7;
+    padding: 2rem;
+}
+
+.Product-title{
+    color:#272B6C;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.Procuct-largetext{
+    color: #B81F25;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.Product-description{
+    color: #919191;
+    font-size: 0.9rem;
+    padding-bottom: 1.5rem;
+}
+
+.P-title{
+    font-size: 1rem;
+    color: #272B6C;
+    font-weight: 600;
+}
+/* TESTIMONIAL */
+
+section.Testimonial{
+    background-image: url("../assets/srbg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 2rem 0;
+}
+.Testimonial-heading{
+    text-align: center;
+}
+.Testimonial-title{
+    font-size: 2rem;
+    color: #B81F25;
+    font-weight: 600;
+}
+.Testimonial-para{
+    font-size: 0.9rem;
+    color: #919191;
+    font-weight: 500 ;
+}
+
+.Persons{
+    padding: 2rem;
+}
+.Person-1{
+    width: 7rem;
+}
+.Test-p{
+    color:#272B6C;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.Test-designation{
+    color:#919191;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.Stars{
+    color: #B81F25;
+    font-size: 1rem;
+}
+.Test-para{
+    color: #919191;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+}
+.active{
+border-bottom: none;
+}
+
+.carousel-control-prev-icon{
+    background-color: #10144D;
+    height: 2rem;
+    width:2rem;
+    border-radius: 50%;
+    font-size: 0.7rem;
+   
+}
+.carousel-control-next-icon{
+    background-color: #10144D;
+    height: 2rem;
+    width:2rem;
+    border-radius: 50%;
+    font-size: 0.7rem;
+}
+
+/* Banner */
+.banner{
+    background-image: url("../assets/bannerback.png");
+}
+.Banner-logo{
+    padding-top: 1rem;
+    width:2rem;
+}
+.Banner-name{
+    color:#272B6C;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+}
+.Banner-text{
+    color:#B81F25;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.ban-img{
+    width:18rem;
+   
+}
+/* Contact */
+section.Contacts{
+     justify-content:space-between;
+     align-items: center;
+     align-content: center;
+    background-color: #f7f7f7;
+    padding: 2rem 0;
+    text-align: center;
+    overflow-x: hidden;
+    
+}
+.contactmap{
+    width: 21rem;
+    align-items: center;
+   
+   
+}
+.Cantact-form{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+   
+   
+}
+.form-input{
+    width: 20rem;
+}
+textarea {
+    width: 20rem;
+  }
+.contact-heading{
+    font-size: 1.2rem;
+    color: #B81F25;
+    font-weight: 700;
+    text-align: start;
+    padding-top: 2rem;
+}
+.contact-text{
+    text-align: start;
+    color: #919191;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.contact-btn{
+    color: #fff;
+    width: 20rem;
+}
+.btn{
+    background-color: #B81F25;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0.6rem 9rem;
+}
+.btn:hover{
+    background-color: #272B6C;
+    color: #fff;
+}
+
+ @media (min-width:1399.98px){
+  
+        .container{
+            width:84%
+        }
+ }  
+
+ @media(max-width:576px){
+    body{
+        background-image: url("../assets/srbg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+    }
+    section.Hero{
+        padding-top: 2rem;
+        text-align: center;
+        overflow-x: hidden;
+      
+    }
+    .text-bold,.text-label,.text-hero-regular{
+        text-align: center;
+       
+    }
+    section.hero-image{
+        padding: 1.5rem 0;
+    }
+    .scroll-text,.scrollimg{
+        text-align: center;
+    }
+/* About */
+    .About-Text{
+        justify-content: center;
+        align-items: center;
+        margin-top: 2.5rem;   
+    }
+    /* Banner */
+    .men-text{
+      text-align: center;
+    }
+    .men-heading{
+        text-align: center;
+    }
+    .Men-Cloths{
+        align-items: center;
+        justify-content: center;
+    }
+    /* Contacts */
+     .Contacts,.Cantact-form{
+       overflow-x: hidden;
+    } 
+ }
